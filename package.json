@@ -1,0 +1,24 @@
+{
+  "name": "codemode",
+  "version": "1.0.0",
+  "description": "Experimental project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alena-haurylenka/codemode.git"
+  },
+  "keywords": [
+    "code",
+    "developer",
+    "experimental"
+  ],
+  "author": "Alena Haurylenka",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alena-haurylenka/codemode/issues"
+  },
+  "homepage": "https://github.com/alena-haurylenka/codemode#readme"
+}
