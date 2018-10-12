@@ -1,25 +1,27 @@
-<nav class="navbar navbar-default navbar-static-top navbar-inverse">
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
   <div class="container">
+    <a class="navbar-brand js-scroll-trigger" href="#page-top"><!--<i class="fa fa-user"></i>--> CodeMode</a>
     <ul class="nav navbar-nav">
-      <li class="active">
-        <a href="/"><span class="glyphicon glyphicon-home"></span> Home</a>
-      </li>
-      <li>
-        <a href="/aboutme"><span class="glyphicon glyphicon-user"></span> About Me</a>
-      </li>
-      <li class="dropdown">
-        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="glyphicon glyphicon-info-sign"></span> Articles <span class="caret"></span></a>
-        <ul class="dropdown-menu" role="menu">
-          <li><a href="https://devcenter.heroku.com/articles/getting-started-with-nodejs">Getting Started with Node on Heroku</a></li>
-          <li class="divider"></li>
-          <li><a href="https://devcenter.heroku.com/articles/getting-started-with-java">Getting Started with Java on Heroku</a></li>
-        </ul>
+      <li class="nav-item"> <!--class="active"-->
+        <a class="nav-link" href="/aboutme"><i class="fa fa-info-circle"></i> Alena Haurulenka</a>
       </li>
     </ul>
-    <ul class="nav navbar-nav navbar-right">
-      <li class="navbar-right">
-        <a href="https://github.com/alena-haurylenka/codemode.git"><span><i class="fa fa-github" aria-hidden="true"></i></span> GitHub</a>
-      </li>
-    </ul>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#services">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
   </div>
 </nav>
