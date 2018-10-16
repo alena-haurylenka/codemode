@@ -34,6 +34,44 @@ body {
   -o-background-size: cover;
 }
 
+header.office-header {
+  padding: 0 0 0 0;
+}
+
+.dark-header {
+  padding: 105px 0 100px;
+  height: 100%;
+  width: 100%;
+  background: rgba(0,0,0,.5);
+  z-index: 2;
+}
+
 .card {
   height: 100%;
+}
+
+.btn {
+  font-size: 14px;
+  font-weight: 800;
+  padding: 15px 25px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border-radius: 0;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.btn-primary {
+  background-color: #0085A1;
+  border-color: #0085A1;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+  color: #fff;
+  background-color: #00657b !important;
+  border-color: #00657b !important;
+}
+
+.btn-lg {
+  font-size: 16px;
+  padding: 25px 35px;
 }

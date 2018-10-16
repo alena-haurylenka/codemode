@@ -5,7 +5,7 @@
  */
 
 header {
-  padding: 114px 0 100px;
+  padding: 105px 0 100px;
 }
 
 .header-shadow {
@@ -14,7 +14,7 @@ header {
 
 @media (min-width: 992px) {
   header {
-    padding: 116px 0 100px;
+    padding: 107px 0 100px;
   }
 }
 
